@@ -22,7 +22,7 @@ IF %ERRORLEVEL% NEQ 0 (
 echo מתקין ESLint גלובלי...
 npm install -g eslint
 
-set ESLINT_CONFIG_URL=https://example.com/eslint.config.mjs
+set ESLINT_CONFIG_URL=https://raw.githubusercontent.com/saarors/-ESlint-bat-/refs/heads/main/eslint.config.mjs
 set ESLINT_GLOBAL_DIR=%APPDATA%\npm\node_modules\eslint
 
 echo מוריד קובץ ESLint config מ-URL...
